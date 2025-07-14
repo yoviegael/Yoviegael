@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.project-preview,
+.project-item {
+  margin-bottom: 20px;
+}
+
+.project-preview img,
+.project-item img,
+.project-item video,
+.project-preview video {
+  max-width: 100%;
+  height: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+.btn {
+  background: #444;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
